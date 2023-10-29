@@ -1,0 +1,173 @@
+.video-section{
+    display: flex;
+    flex-wrap: nowrap;
+    /* align-items: center; */
+    gap: 2rem .1rem;
+    padding: 1rem 2rem;
+}
+
+.video-section .video .video-full{
+    text-align: center;
+    padding: 0rem 1rem;
+    
+}
+.video-section .video .video-full video{
+    width: 90%;
+    margin: auto;
+}
+.video-section .list{
+    border: 3px solid black;
+    padding: 2rem;
+}
+
+.video-section .list .btnn button{
+    width: 12rem;
+    height: 2rem;
+    background: black;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.video-section .list .btnn{
+    text-align: center;
+}
+
+.video-section .list .list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.video-section .list .list-item a{
+    font-size: 1.1rem;
+    padding: .2rem 1rem;
+    border: 1px solid #555;
+    text-align: center;
+    margin: .3rem 0rem;
+    width: 100%;
+    cursor: pointer;
+     }
+
+     .video-section .hidde{
+        text-align: center;
+     }
+
+     .video-section .hidde button{
+        background: none;
+        border:none;
+        font-size: 1.7rem;
+        cursor: pointer;
+     }
+
+     .video-section .bbttn{
+        text-align: center;
+        margin-top: 1rem;
+     }
+    
+     .video-section .bbttn button{
+        text-align: center;
+        font-size: 1.1rem;
+        padding: .3rem 2rem;
+        border: none;
+        background: black;
+        color: #a77c7c;
+        border-radius: 50px;
+        cursor: pointer;
+}
+
+
+.left{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#menu-btn {
+    font-size: 2.5rem;
+    color: #000;
+    z-index: 1000;
+    display: none;
+}
+
+
+.video .controols{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 2rem;
+    border: 2px solid #000;
+    padding: .5rem;
+    margin: auto;
+    width: 85%;
+}
+.video .controols  button{
+    width: 5rem;
+    font-size: 1.2rem;
+    height: 2.2rem;
+    color: #fff;
+    background: #000;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+
+@media(max-width:1030px){
+
+    #menu-btn{
+
+        display: initial;
+    }
+  
+    .video-section{
+       flex-direction: column;
+    }
+
+    .left .left-content {
+        position: absolute;
+    top: 100%;
+    /* left: -110%; */
+    left: -120%;
+    background: #fff;
+    /* width: 30rem; */
+        transition: all .2s;
+        /* background: #ffffff; */
+    }
+
+     .left .left-content.active {
+        left: 0rem;
+    }
+
+    .hide{
+        display: none;
+    }
+}
+
+@media(max-width:950px){
+    .video .controols{
+        margin: auto;
+        width: 95%;
+    }
+
+    .video-section .video .video-full video{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media(max-width:500px){
+    .video .controols{
+        margin: auto;
+        width: 86%;
+    }
+}

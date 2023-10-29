@@ -1,0 +1,360 @@
+/* Monile responsive design here  */
+@media(max-width:900px) {
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container img {
+        width: 300px;
+    }
+}
+
+@media(max-width:468px) {
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media(max-width:350px) {
+    .container h1 {
+        font-size: 1.2rem;
+    }
+
+    .container img {
+        width: 270px;
+    }
+
+    .layout {
+        padding: 1rem 1%;
+    }
+}
+
+
+/* Layout Page responsive */
+
+
+@media(max-width:970px){
+    .content-details{
+        margin-left: 3rem;
+    }
+    .bottom p{
+        margin-left: 2rem;
+    }
+    .details .top .image{
+        margin-left: 2rem;
+    }
+    .details .top  .content .button{
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width:890px) {
+    #menu {
+        display: block !important;
+        top: 6% !important;
+        font-size: 2rem;
+        z-index: 100000 !important;
+    }
+
+    /* .details .top {
+        margin-top: -6rem;
+    } */
+
+    #menus {
+        left: 8% !important;
+        top: 11.5% !important;
+        font-size: 2rem !important;
+        z-index: 9999 !important;
+        /* transition: all 0.4s linear; */
+    }
+
+    .links {
+        position: absolute;
+        /* top: 1rem; */
+        left: -100rem;
+        width: 300px;
+        height: 550px !important;
+        background: #fff;
+        border-left: none;
+        z-index: 999;
+        transition: all 0.3s linear;
+    }
+
+    .threed-links2 {
+        height: 450px !important;
+    }
+
+    .threed-links2 .btn {
+        font-size: 0.7rem !important;
+        padding-bottom: 0.5rem;
+    }
+
+
+    .threed-links2 .link a {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.7rem;
+    }
+
+    .hide {
+        display: none;
+    }
+
+
+    .hide-left {
+        top: 4% !important;
+        left: 18% !important;
+        font-size: 3rem;
+    }
+
+    .threed-links {
+        height: 60vh !important;
+
+    }
+
+    .threed {
+        margin: 2rem auto;
+    }
+
+    .collector {
+        left: 8rem !important;
+        top: 27rem !important;
+    }
+    .collector1{
+        top: -65%;
+        z-index: 99;
+        left: 20%;
+        padding: 0.1rem 0.2rem;
+        font-size: 2.5rem;
+        font-size: 3rem;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .player {
+        width: 98%;
+        margin-left: 1rem;
+    }
+    .details {
+        flex: 1 1 50rem;
+    }
+    .image {
+        flex: 1 1 50rem;
+    }
+    .image img {
+        width: 80%;
+        margin-top: 13rem;
+    }
+}
+
+@media(max-width:750px) {
+    .details .top {
+        /* margin-top: 2rem; */
+    }
+
+    .bottom {
+        margin-top: 0.5rem;
+        height: 12rem;
+    }
+
+}
+
+@media(max-width:720px) {
+    .buttons {
+        width: 200px !important;
+        margin-left: 20rem !important;
+    }
+}
+
+@media(max-width:680px) {
+    .bottom {
+        height: 9rem;
+    }
+    .wrapper-box {
+        margin-top: 7.5rem;
+        /* margin-left: 2rem; */
+    }
+    
+    .slider_container:nth-of-type(1) {
+        margin-left: 3rem !important;
+        width: 90%;
+    }
+
+    .slider_container:nth-of-type(2) {
+        margin-left: 20rem !important;
+        /* width: 30%; */
+    }
+
+    .bottom p {
+        font-size: 1.4rem;
+    }
+
+    .player{
+        height: 170px;
+    }
+
+    #controller{
+        display: flex !important;
+        justify-content: left !important;
+        margin-left: -.6rem !important;
+    }
+    .buttons {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: left !important;
+        margin-left: 7rem !important;
+    }
+}
+
+@media(max-width:620px) {}
+
+@media(max-width:570px) {
+    /* .layout {
+        height: 100vh;
+    } */
+
+    .details .bottom {
+        margin-top: 1rem !important;
+        height: 8rem !important;
+    }
+
+    .threed-links {
+        height: 70vh !important;
+    }
+
+    .slider_container:nth-of-type(1) {
+        margin-left: 4rem;
+    }
+}
+
+@media(max-width:530px) {
+
+
+    .layout {
+        /* height: 100% !important; */
+        /* width: 100%; */
+        margin-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .threed-links {
+        height: 70vh !important;
+    }
+
+    #menu {
+        left: 6rem;
+    }
+
+    .details img {
+        padding: 0rem 0.5rem;
+        width: 300px;
+    }
+
+    .details .content {
+        padding: 0rem 0.9rem;
+    }
+
+    .threed {
+        width: 300px;
+        height: 300px;
+    }
+
+    .threed-links {
+        width: 350px !important;
+    }
+
+    .wrapper-box {
+        /* margin-left: -10rem !important; */
+    }
+
+    .slider_container:nth-of-type(2),
+    .buttons {
+        margin-left: 7rem !important;
+    }
+}
+
+
+@media(max-width:500px){
+    .hide-left{
+        margin-left: 6rem;
+    }
+    .collector1{
+        left: 16rem;
+    }
+
+    .slider_container:nth-of-type(2),
+    .buttons {
+        margin-left: 5rem !important;
+        width: 30%;
+    }
+    
+    .buttons i{
+        font-size: 1.2rem !important;
+    }
+}
+
+@media(max-width:400px){
+    .image img{
+        margin-left: .1px;
+    }
+    .content-details{
+        margin-left: 1rem;
+    }
+   .content .button{
+        margin-left: 1rem !important;
+    }
+
+}
+
+
+@media(max-width:490px) {
+    .layout {
+        padding: 1rem 2% !important;
+        width: 100% !important;
+    }
+
+    #menu {
+        /* top: 9% !important; */
+        left: 8rem;
+    }
+
+
+    #menus {
+        left: 12% !important;
+        top: 9.5% !important;
+    }
+
+
+
+    .player {
+        width: 98%;
+        margin-left: 1rem;
+    }
+
+    .slider_container:nth-of-type(1) {
+        width: 100% !important;
+    }
+
+    /* .wrapper {
+        width: 100%;
+    } */
+}
+
+
+@media (max-width:340px) {
+    .threed {
+        width: 250px;
+        height: 300px;
+        /* margin-left: 1rem; */
+    }
+
+    .threed-links {
+        width: 300px !important;
+        margin-left: 2rem !important;
+    }
+
+    .buttons {
+        margin-left: 12rem !important;
+    }
+}
+
+
